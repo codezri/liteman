@@ -1,0 +1,11 @@
+<div class="file-view">
+    <div class="item header">Path: {{currentDir}}</div>
+    <div class="item" (click)="goBack();" *ngIf="pathStack.length > 0">..</div>
+    <div class="item"
+         *ngFor="let item of fileTree"
+         (click)="handleItemClick(item)">
+        <span *ngIf="item.type=='DIRECTORY'">📁</span>
+        <span *ngIf="item.type=='FILE'">⚙️</span>
+        {{item.entry}}
+    </div>
+</div>

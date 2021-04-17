@@ -1,0 +1,32 @@
+{
+  "applicationId": "js.neutralino.sample",
+  "port": 0,
+  "defaultMode": "window",
+  "url": "/resources/",
+  "nativeBlockList": [
+    "os.execCommand",
+    "filesystem.removeDirectory",
+    "filesystem.removeFile"
+  ],
+  "globalVariables": {},
+  "modes": {
+    "window": {
+      "title": "liteman",
+      "width": 800,
+      "height": 500,
+      "fullScreen": false,
+      "alwaysOnTop": false,
+      "icon": "/icons/appIcon.png",
+      "enableInspector": false,
+      "borderless": false,
+      "maximize": false
+    },
+    "browser": {},
+    "cloud": {}
+  },
+  "cli": {
+    "binaryName": "liteman",
+    "resourcesPath": "/resources/",
+    "clientLibrary": "/resources/assets/neutralino.js"
+  }
+}
