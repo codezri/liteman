@@ -13,3 +13,8 @@ A simple file manager app written in Neutralinojs
 ## on Browser
 ![Liteman on Browser](media/liteman_prev_web.gif)
 
+## License
+
+[MIT](LICENSE)
+Copyright (c) Shalitha Suranga
+
