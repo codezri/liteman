@@ -21,14 +21,14 @@ How to run the app?
  $ neu run
 ```
 
-How to make a development build for Angular (to test my changes)?
+How to make a development build of Angular code (to test my changes)?
 
 ```
  $ cd liteman-ng
  $ npm run build
 ```
 
-How to make a production build for Angular (to make a new release)?
+How to make a production build of Angular code (to make a new release)?
 
 ```
  $ npm run build_prod
