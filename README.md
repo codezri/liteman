@@ -1,17 +1,17 @@
 # liteman
-A simple file manager app written in Neutralinojs
+World's simplest Python editor built with Neutralinojs
 
 ## on Linux
-![Liteman on Linux](media/liteman_prev_linux.gif)
+![LitePy on Linux](media/litepy_prev_linux.gif)
 
 ## on Windows
-![Liteman on Linux](media/liteman_prev_windows.gif)
+![LitePy on Linux](media/litepy_prev_windows.gif)
 
 ## on macOS
 [Support](https://github.com/neutralinojs/v2-specification) Neutralinojs to release the v2 version for macOS.
 
 ## on Browser
-![Liteman on Browser](media/liteman_prev_web.gif)
+![Liteman on Browser](media/litepy_prev_web.gif)
 
 # Developer Q & A
 
@@ -21,17 +21,11 @@ How to run the app?
  $ neu run
 ```
 
-How to make a development build of Angular code (to test my changes)?
+How to make a build of React code?
 
 ```
- $ cd liteman-ng
- $ npm run build
-```
-
-How to make a production build of Angular code (to make a new release)?
-
-```
- $ npm run build_prod
+ $ cd liteman-rc
+ $ yarn run build_unix
 ```
 
 How to make binaries for the latest code?
