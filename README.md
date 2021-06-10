@@ -44,4 +44,4 @@ How to make binaries for the latest code?
 ## License
 
 [MIT](LICENSE)
-Copyright (c) Shalitha Suranga
+Copyright (c) CodeZri.org
