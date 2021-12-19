@@ -1,11 +1,11 @@
 {
-  "name": "liteman-ng",
+  "name": "liteman-angular",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build --base-href=/resources/",
-    "build_prod": "ng build --prod --base-href=/resources/",
+    "build": "ng build --base-href=/",
+    "build_prod": "ng build --prod --base-href=/",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"

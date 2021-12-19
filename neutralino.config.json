@@ -1,9 +1,10 @@
 {
-  "applicationId": "js.neutralino.sample",
+  "applicationId": "js.neutralino.liteman",
   "port": 0,
   "defaultMode": "window",
-  "url": "/resources/",
-  "enableHTTPServer": true,
+  "url": "/",
+  "documentRoot": "/resources/",
+  "enableServer": true,
   "enableNativeAPI": true,
   "nativeBlockList": [
     "os.execCommand",
@@ -19,7 +20,7 @@
       "fullScreen": false,
       "alwaysOnTop": false,
       "icon": "/icons/appIcon.png",
-      "enableInspector": false,
+      "enableInspector": true,
       "borderless": false,
       "maximize": false
     },
@@ -29,6 +30,9 @@
   "cli": {
     "binaryName": "liteman",
     "resourcesPath": "/resources/",
-    "clientLibrary": "/resources/assets/neutralino.js"
+    "extensionsPath": "/extensions/",
+    "clientLibrary": "/liteman-angular/src/assets/neutralino.js",
+    "binaryVersion": "4.0.0",
+    "clientVersion": "3.0.0"
   }
 }

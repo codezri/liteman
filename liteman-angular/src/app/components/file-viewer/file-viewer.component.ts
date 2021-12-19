@@ -24,10 +24,8 @@ export class FileViewerComponent implements OnInit {
 
   async setDirectory(path: string) {
     this.currentDir = path;
-    let response = await Neutralino.filesystem.readDirectory({
-      path
-    });
-    this.fileTree = response.entries
+    let entries = await Neutralino.filesystem.readDirectory(path);
+    this.fileTree = entries
                       .filter((item: any) => (item.entry != "." && item.entry != "..")) // remove . and ...
                       .sort((a: any, b: any) => (b.type.length - a.type.length)); // display directories first
   }
@@ -45,11 +43,7 @@ export class FileViewerComponent implements OnInit {
       this.setDirectory(this.currentDir + "/" + item.entry);
     }
     else {
-      Neutralino.os.showMessageBox({
-        type: "WARN",
-        title: "Liteman",
-        content: "Only directories are supported right now."
-      });
+      Neutralino.os.showMessageBox("Liteman", "Only directories are supported right now.", null, "WARNING");
     }
   }
 
