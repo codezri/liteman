@@ -24,7 +24,7 @@ How to run the app?
 How to make a development build of Angular code (to test my changes)?
 
 ```
- $ cd liteman-ng
+ $ cd liteman-angular
  $ npm run build
 ```
 
