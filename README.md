@@ -8,8 +8,7 @@ A simple file manager app written in Neutralinojs
 ![Liteman on Linux](media/liteman_prev_windows.gif)
 
 ## on macOS
-
-To be added.
+![Liteman on Mac](media/liteman_prev_mac.gif)
 
 ## on Browser
 ![Liteman on Browser](media/liteman_prev_web.gif)
